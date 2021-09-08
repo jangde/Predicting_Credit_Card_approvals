@@ -28,7 +28,7 @@ Machine learning models
 While building this credit card predictor, we tackled some of the most
 widely-known preprocessing steps such as scaling, label encoding, and missing
 value imputation.
-We have used Logistic Regression model to come up with the solution and the
+I have used Logistic Regression model to come up with the solution and the
 reason for selecting this model is because linear regression models are useful for
 predicting continuous (numeric) variables. However, the target value in Approved is
 binary and can only be values of 1 or 0. The applicant can either be issued a credit
@@ -41,7 +41,7 @@ logistic regression will be more useful because it will produce a probability th
 target value is 1. Probabilities are always between 0 and 1, so the output will more
 closely match the target value range than linear regression.
 
-We finished with the machine learning model to predict if a person's application for
+I finished with the machine learning model to predict if a person's application for
 a credit card would get approved or not given some information about that person.
 The model, we built was able to predict the outcome of a credit application with
 85.21% accuracy which was significantly better performance than the baseline
